@@ -1,0 +1,161 @@
+body{
+  margin : auto;
+}
+header.header1{
+  text-shadow: 1px 1px red;
+  font-style: italic;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+body{
+  background-image: url(E:/assignment/img/void.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+
+}
+
+.nav01 .ul01 li{
+  display: inline;
+  margin-right: 50px;
+  font-size: 20px;
+  border-radius: 4px 4px 0 0;
+  margin-left:10px;
+  color:red;
+}
+
+.nav01 .ul01 li a:hover{
+  color: blue;
+  font-style: sans-serif;
+  background-color: black;
+
+}
+
+
+a{
+  text-decoration: none;
+  color:red;
+}
+
+.navigator{
+  background-color: black;
+  height:30px;
+}
+
+
+.css-slideshow{
+  position: absolute;
+  margin-top:0px;
+  top:90px;
+  width:1000px;
+  max-width: 1000px;
+  height: 370px;
+  left: 400px;
+  margin-bottom:390px;
+  border: 2px 2px 2px 2px #fff000;
+}
+.css-slideshow figure{
+  margin: 0;
+  max-width: 495px;
+  height: 370px;
+  background: #000;
+  position: absolute;
+}
+.css-slideshow img{
+  box-shadow: 0 0 2px #666;
+}
+.css-slideshow figcaption{
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background: rgba(0,0,0, .3);
+  font-size: .8em;
+  padding: 8px 12px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.css-slideshow:hover figure figcaption{
+  transition: opacity .5s;
+  opacity: 1;
+}
+.css-slideshow-attr{
+  max-width: 495px;
+  text-align: right;
+  font-size: .7em;
+  font-style: italic;
+  margin:0 auto;
+}
+.css-slideshow-attr a{
+  color: #666;
+}
+.css-slideshow figure{
+  opacity:0;
+}
+figure:nth-child(1) {
+  animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+  animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+  animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+  animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+  animation: xfade 48s 0s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.wrap{
+  position: relative;
+  top: 400px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.next{
+  position:absolute;
+  top : 1100px;
+  padding: inherit;
+  left: 195px;
+}
+
+.footer{
+  position: relative;
+  top: 700px;
+  left: 500px;
+  font-size: 20px;
+  font-weight: bolder;
+}
